@@ -89,11 +89,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Proyects\\ProyectTest\\ProyectTest\\ProyectTest.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Proyects\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\ProyectTest.csproj",
       "projectName": "ProyectTest",
-      "projectPath": "C:\\Users\\User\\Desktop\\Proyects\\ProyectTest\\ProyectTest\\ProyectTest.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\Proyects\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\ProyectTest.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Proyects\\ProyectTest\\ProyectTest\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Proyects\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

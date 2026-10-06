@@ -1,0 +1,4 @@
+# Carpetas de Visual Studio / build
+.vs/
+bin/
+obj/

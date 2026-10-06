@@ -1,6 +1,26 @@
 @ProyectTest_HostAddress = http://localhost:5217
 
-GET {{ProyectTest_HostAddress}}/weatherforecast/
-Accept: application/json
+### Crear una tarea nueva
+POST {{ProyectTest_HostAddress}}/api/tareas
+Content-Type: application/json
 
-###
+{
+  "titulo": "Estudiar POST y PUT",
+  "completada": false
+}
+
+### Actualizar la tarea 2
+PUT {{ProyectTest_HostAddress}}/api/tareas/2
+Content-Type: application/json
+
+{
+  "titulo": "Crear mi primera API (hecho)",
+  "completada": true
+}
+
+### Borrar la tarea 3
+DELETE {{ProyectTest_HostAddress}}/api/tareas/3
+
+
+### Ver todas las tareas
+GET {{ProyectTest_HostAddress}}/api/tareas

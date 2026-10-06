@@ -1,22 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Proyects\\ProyectTest\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Proyects\\netPrueba\\ProyectTest\\ProyectTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{857175C5-7E94-4369-84A7-36BC3AF95C8B}|ProyectTest\\ProyectTest.csproj|c:\\users\\user\\desktop\\proyects\\proyecttest\\proyecttest\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{857175C5-7E94-4369-84A7-36BC3AF95C8B}|ProyectTest\\ProyectTest.csproj|solutionrelative:proyecttest\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|c:\\users\\user\\desktop\\proyects\\netprueba\\proyecttest\\proyecttest\\proyecttest\\proyecttest.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|solutionrelative:proyecttest\\proyecttest.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{857175C5-7E94-4369-84A7-36BC3AF95C8B}|ProyectTest\\ProyectTest.csproj|c:\\users\\user\\desktop\\proyects\\proyecttest\\proyecttest\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{857175C5-7E94-4369-84A7-36BC3AF95C8B}|ProyectTest\\ProyectTest.csproj|solutionrelative:proyecttest\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|c:\\users\\user\\desktop\\proyects\\netprueba\\proyecttest\\proyecttest\\proyecttest\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|solutionrelative:proyecttest\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{857175C5-7E94-4369-84A7-36BC3AF95C8B}|ProyectTest\\ProyectTest.csproj|c:\\users\\user\\desktop\\proyects\\proyecttest\\proyecttest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{857175C5-7E94-4369-84A7-36BC3AF95C8B}|ProyectTest\\ProyectTest.csproj|solutionrelative:proyecttest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|c:\\users\\user\\desktop\\proyects\\netprueba\\proyecttest\\proyecttest\\proyecttest\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|solutionrelative:proyecttest\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{857175C5-7E94-4369-84A7-36BC3AF95C8B}|ProyectTest\\ProyectTest.csproj|c:\\users\\user\\desktop\\proyects\\proyecttest\\proyecttest\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{857175C5-7E94-4369-84A7-36BC3AF95C8B}|ProyectTest\\ProyectTest.csproj|solutionrelative:proyecttest\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|c:\\users\\user\\desktop\\proyects\\netprueba\\proyecttest\\proyecttest\\proyecttest\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|solutionrelative:proyecttest\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|c:\\users\\user\\desktop\\proyects\\netprueba\\proyecttest\\proyecttest\\proyecttest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|solutionrelative:proyecttest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|c:\\users\\user\\desktop\\proyects\\netprueba\\proyecttest\\proyecttest\\proyecttest\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|solutionrelative:proyecttest\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|c:\\users\\user\\desktop\\proyects\\netprueba\\proyecttest\\proyecttest\\proyecttest\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|solutionrelative:proyecttest\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,10 +43,49 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProyectTest.http",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Proyects\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\ProyectTest.http",
+              "RelativeDocumentMoniker": "ProyectTest\\ProyectTest.http",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Proyects\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\ProyectTest.http",
+              "RelativeToolTip": "ProyectTest\\ProyectTest.http",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-10-06T17:23:33.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TareasController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Proyects\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\Controllers\\TareasController.cs",
+              "RelativeDocumentMoniker": "ProyectTest\\Controllers\\TareasController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Proyects\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\Controllers\\TareasController.cs",
+              "RelativeToolTip": "ProyectTest\\Controllers\\TareasController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T16:28:23.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tarea.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Proyects\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\Models\\Tarea.cs",
+              "RelativeDocumentMoniker": "ProyectTest\\Models\\Tarea.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Proyects\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\Models\\Tarea.cs",
+              "RelativeToolTip": "ProyectTest\\Models\\Tarea.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:44:46.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Proyects\\ProyectTest\\ProyectTest\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Proyects\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "ProyectTest\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Proyects\\ProyectTest\\ProyectTest\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Proyects\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "ProyectTest\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -43,42 +94,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Proyects\\ProyectTest\\ProyectTest\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Proyects\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\appsettings.json",
               "RelativeDocumentMoniker": "ProyectTest\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Proyects\\ProyectTest\\ProyectTest\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Proyects\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\appsettings.json",
               "RelativeToolTip": "ProyectTest\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-10-05T20:17:10.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-05T20:17:10.778Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Proyects\\ProyectTest\\ProyectTest\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Proyects\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ProyectTest\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Proyects\\ProyectTest\\ProyectTest\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Proyects\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\Properties\\launchSettings.json",
               "RelativeToolTip": "ProyectTest\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-10-05T20:16:52.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-05T20:16:52.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Proyects\\ProyectTest\\ProyectTest\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Proyects\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\appsettings.Development.json",
               "RelativeDocumentMoniker": "ProyectTest\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Proyects\\ProyectTest\\ProyectTest\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Proyects\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\appsettings.Development.json",
               "RelativeToolTip": "ProyectTest\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-10-05T20:16:08.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-05T20:16:08.638Z"
             }
           ]
         }
