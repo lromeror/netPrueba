@@ -1,26 +1,28 @@
 @ProyectTest_HostAddress = http://localhost:5217
 
-### Crear una tarea nueva
+### Intentar crear una tarea con título vacío (debe fallar con 400)
 POST {{ProyectTest_HostAddress}}/api/tareas
 Content-Type: application/json
 
 {
-  "titulo": "Estudiar POST y PUT",
+  "titulo": "",
   "completada": false
 }
 
-### Actualizar la tarea 2
-PUT {{ProyectTest_HostAddress}}/api/tareas/2
+### Intentar crear con título muy corto (debe fallar con 400)
+POST {{ProyectTest_HostAddress}}/api/tareas
 Content-Type: application/json
 
 {
-  "titulo": "Crear mi primera API (hecho)",
-  "completada": true
+  "titulo": "ab",
+  "completada": false
 }
 
-### Borrar la tarea 3
-DELETE {{ProyectTest_HostAddress}}/api/tareas/3
+### Crear una válida (debe dar 201)
+POST {{ProyectTest_HostAddress}}/api/tareas
+Content-Type: application/json
 
-
-### Ver todas las tareas
-GET {{ProyectTest_HostAddress}}/api/tareas
+{
+  "titulo": "Esta tarea sí es válida",
+  "completada": false
+}

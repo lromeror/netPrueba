@@ -1,76 +1,64 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using ProyectTest.Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using ProyectTest.DTOs;
+using ProyectTest.Services;
 
-namespace ProyectTest.Controllers
+namespace ProyectTest.Controllers;
+
+[ApiController]
+[Route("api/[controller]")]
+public class TareasController : ControllerBase
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class TareasController : ControllerBase
+    private readonly ITareaService _tareaService;
+
+    // El servicio llega por el constructor (inyección de dependencias)
+    public TareasController(ITareaService tareaService)
     {
-        private static readonly List<Tarea> _tareas = new()
-        {
-            new Tarea { Id = 1, Titulo = "Aprender .NET", Completada = true },
-            new Tarea { Id = 2, Titulo = "Crear mi primera API", Completada = false },
-            new Tarea { Id = 3, Titulo = "Tomar un café", Completada = false }
-        };
+        _tareaService = tareaService;
+    }
 
+    [HttpGet]
+    public IActionResult ObtenerTodas()
+    {
+        return Ok(_tareaService.ObtenerTodas());
+    }
 
-        [HttpGet]
-        public IActionResult ObtenerTodas()
-        {
-            return Ok(_tareas);
-        }
+    [HttpGet("{id}")]
+    public IActionResult ObtenerPorId(int id)
+    {
+        var tarea = _tareaService.ObtenerPorId(id);
 
+        if (tarea is null)
+            return NotFound();
 
-        [HttpGet("{id}")]
-        public IActionResult ObtenerPorId(int id)
-        {
-            var tarea = _tareas.FirstOrDefault(t => t.Id == id);
+        return Ok(tarea);
+    }
 
-            if (tarea is null)
-                return NotFound();
+    [HttpPost]
+    public IActionResult Crear(CrearTareaDto dto)
+    {
+        var nuevaTarea = _tareaService.Crear(dto.Titulo, dto.Completada);
+        return CreatedAtAction(nameof(ObtenerPorId), new { id = nuevaTarea.Id }, nuevaTarea);
+    }
 
-            return Ok(tarea);
-        }
+    [HttpPut("{id}")]
+    public IActionResult Actualizar(int id, ActualizarTareaDto dto)
+    {
+        var exito = _tareaService.Actualizar(id, dto.Titulo, dto.Completada);
 
+        if (!exito)
+            return NotFound();
 
-        [HttpPost]
-        public IActionResult Crear(Tarea nuevaTarea)
-        {
-            // Calculamos el siguiente id disponible
-            nuevaTarea.Id = _tareas.Count == 0 ? 1 : _tareas.Max(t => t.Id) + 1;
+        return NoContent();
+    }
 
-            _tareas.Add(nuevaTarea);
+    [HttpDelete("{id}")]
+    public IActionResult Eliminar(int id)
+    {
+        var exito = _tareaService.Eliminar(id);
 
-            return CreatedAtAction(nameof(ObtenerPorId), new { id = nuevaTarea.Id }, nuevaTarea);
-        }
+        if (!exito)
+            return NotFound();
 
-        [HttpPut("{id}")]
-        public IActionResult Actualizar(int id, Tarea tareaActualizada)
-        {
-            var tarea = _tareas.FirstOrDefault(t => t.Id == id);
-
-            if (tarea is null)
-                return NotFound();
-
-            tarea.Titulo = tareaActualizada.Titulo;
-            tarea.Completada = tareaActualizada.Completada;
-
-            return NoContent();
-        }
-
-        [HttpDelete("{id}")]
-        public IActionResult Eliminar(int id)
-        {
-            var tarea = _tareas.FirstOrDefault(t => t.Id == id);
-
-            if (tarea is null)
-                return NotFound();
-
-            _tareas.Remove(tarea);
-
-            return NoContent();
-        }
+        return NoContent();
     }
 }
