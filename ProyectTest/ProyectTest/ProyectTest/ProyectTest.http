@@ -14,7 +14,7 @@ POST {{ProyectTest_HostAddress}}/api/tareas
 Content-Type: application/json
 
 {
-  "titulo": "ab",
+  "titulo": "Fundamentos de Programacion",
   "completada": false
 }
 
