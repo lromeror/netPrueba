@@ -1,6 +1,6 @@
 ﻿using ProyectTest.Data;
 using ProyectTest.Models;
-
+using Microsoft.EntityFrameworkCore;
 namespace ProyectTest.Services;
 
 public class TareaService : ITareaService   
@@ -22,16 +22,17 @@ public class TareaService : ITareaService
         new Tarea { Id = 3, Titulo = "Tomar un café", Completada = false }
     };
     */
-    public IEnumerable<Tarea> ObtenerTodas()
+
+    public async Task<IEnumerable<Tarea>> ObtenerTodasAsync()// Método asincrónico para obtener todas las tareas
     {
-        return _context.Tareas.ToList(); //Retorna todas las tareas desde la base de datos
+        return await _context.Tareas.ToListAsync(); // Retorna todas las tareas desde la base de datos
     }
 
-    public Tarea? ObtenerPorId(int id) {
-        return _context.Tareas.FirstOrDefault(t => t.Id == id);
+    public async Task<Tarea?> ObtenerPorIdAsync(int id) {
+        return await _context.Tareas.FirstOrDefaultAsync(t => t.Id == id);
     }
 
-    public Tarea Crear(string titulo, bool completada)
+    public async Task<Tarea> CrearAsync(string titulo, bool completada)
     {
         var nuevaTarea = new Tarea
         {
@@ -39,31 +40,31 @@ public class TareaService : ITareaService
             Completada = completada
         };
         _context.Tareas.Add(nuevaTarea);
-        _context.SaveChanges(); // Guarda los cambios en la base de datos
+        await _context.SaveChangesAsync(); // Guarda los cambios en la base de datos
         return nuevaTarea;
     }
 
-    public bool Actualizar(int id, string titulo, bool completada)
+    public async Task<bool> ActualizarAsync(int id, string titulo, bool completada)
     {
-        var tarea = _context.Tareas.FirstOrDefault(t => t.Id == id);
+        var tarea = await _context.Tareas.FirstOrDefaultAsync(t => t.Id == id);
         if (tarea is null)
             return false;
 
         tarea.Titulo = titulo;
         tarea.Completada = completada;
 
-        _context.SaveChanges(); // Guarda los cambios en la base de datos
+        await _context.SaveChangesAsync(); // Guarda los cambios en la base de datos
         return true;
     }
 
-    public bool Eliminar(int id)
+    public async Task<bool> EliminarAsync(int id)
     {
-        var tarea = _context.Tareas.FirstOrDefault(t => t.Id == id);
+        var tarea = await _context.Tareas.FirstOrDefaultAsync(t => t.Id == id);
         if (tarea is null)
             return false;
 
         _context.Tareas.Remove(tarea);
-        _context.SaveChanges(); // Guarda los cambios en la base de datos
+        await _context.SaveChangesAsync(); // Guarda los cambios en la base de datos
         return true;
     }
 }

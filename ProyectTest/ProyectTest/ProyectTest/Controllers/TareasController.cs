@@ -17,15 +17,16 @@ public class TareasController : ControllerBase
     }
 
     [HttpGet]
-    public IActionResult ObtenerTodas()
+    public async Task<IActionResult> ObtenerTodas()
     {
-        return Ok(_tareaService.ObtenerTodas());
+        var tareas = await _tareaService.ObtenerTodasAsync();
+        return Ok(tareas);
     }
 
     [HttpGet("{id}")]
-    public IActionResult ObtenerPorId(int id)
+    public async Task<IActionResult> ObtenerPorId(int id)
     {
-        var tarea = _tareaService.ObtenerPorId(id);
+        var tarea = await _tareaService.ObtenerPorIdAsync(id);
 
         if (tarea is null)
             return NotFound();
@@ -34,16 +35,16 @@ public class TareasController : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult Crear(CrearTareaDto dto)
+    public async Task<IActionResult> Crear(CrearTareaDto dto)
     {
-        var nuevaTarea = _tareaService.Crear(dto.Titulo, dto.Completada);
+        var nuevaTarea = await _tareaService.CrearAsync(dto.Titulo, dto.Completada);
         return CreatedAtAction(nameof(ObtenerPorId), new { id = nuevaTarea.Id }, nuevaTarea);
     }
 
     [HttpPut("{id}")]
-    public IActionResult Actualizar(int id, ActualizarTareaDto dto)
+    public async Task<IActionResult> Actualizar(int id, ActualizarTareaDto dto)
     {
-        var exito = _tareaService.Actualizar(id, dto.Titulo, dto.Completada);
+        var exito = await _tareaService.ActualizarAsync(id, dto.Titulo, dto.Completada);
 
         if (!exito)
             return NotFound();
@@ -52,9 +53,9 @@ public class TareasController : ControllerBase
     }
 
     [HttpDelete("{id}")]
-    public IActionResult Eliminar(int id)
+    public async Task<IActionResult> Eliminar(int id)
     {
-        var exito = _tareaService.Eliminar(id);
+        var exito = await _tareaService.EliminarAsync(id);
 
         if (!exito)
             return NotFound();
