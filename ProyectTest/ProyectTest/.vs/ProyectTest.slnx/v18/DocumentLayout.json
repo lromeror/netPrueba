@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Luis F. Romero\\Desktop\\netPrueba\\ProyectTest\\ProyectTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|c:\\users\\luis f. romero\\desktop\\netprueba\\proyecttest\\proyecttest\\proyecttest\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|solutionrelative:proyecttest\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|c:\\users\\luis f. romero\\desktop\\netprueba\\proyecttest\\proyecttest\\proyecttest\\services\\tareaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|solutionrelative:proyecttest\\services\\tareaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|c:\\users\\luis f. romero\\desktop\\netprueba\\proyecttest\\proyecttest\\proyecttest\\proyecttest.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|solutionrelative:proyecttest\\proyecttest.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|c:\\users\\luis f. romero\\desktop\\netprueba\\proyecttest\\proyecttest\\proyecttest\\services\\itareaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|solutionrelative:proyecttest\\services\\itareaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|c:\\users\\luis f. romero\\desktop\\netprueba\\proyecttest\\proyecttest\\proyecttest\\services\\tareaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|solutionrelative:proyecttest\\services\\tareaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|c:\\users\\luis f. romero\\desktop\\netprueba\\proyecttest\\proyecttest\\proyecttest\\migrations\\20261009031057_inicialtareas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|solutionrelative:proyecttest\\migrations\\20261009031057_inicialtareas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|c:\\users\\luis f. romero\\desktop\\netprueba\\proyecttest\\proyecttest\\proyecttest\\proyecttest.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|solutionrelative:proyecttest\\proyecttest.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|c:\\users\\luis f. romero\\desktop\\netprueba\\proyecttest\\proyecttest\\proyecttest\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|solutionrelative:proyecttest\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{821F2CE7-5559-AA33-519D-FFCAF84E915B}|ProyectTest\\ProyectTest.csproj|c:\\users\\luis f. romero\\desktop\\netprueba\\proyecttest\\proyecttest\\proyecttest\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,21 +70,17 @@
       "DocumentGroups": [
         {
           "DockedHeight": 355,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ProyectTest.http",
               "DocumentMoniker": "C:\\Users\\Luis F. Romero\\Desktop\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\ProyectTest.http",
               "RelativeDocumentMoniker": "ProyectTest\\ProyectTest.http",
               "ToolTip": "C:\\Users\\Luis F. Romero\\Desktop\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\ProyectTest.http",
               "RelativeToolTip": "ProyectTest\\ProyectTest.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAADwv3cAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
               "WhenOpened": "2026-10-09T11:43:48.322Z",
               "EditorCaption": ""
@@ -104,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TareaService.cs",
               "DocumentMoniker": "C:\\Users\\Luis F. Romero\\Desktop\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\Services\\TareaService.cs",
               "RelativeDocumentMoniker": "ProyectTest\\Services\\TareaService.cs",
@@ -117,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ITareaService.cs",
               "DocumentMoniker": "C:\\Users\\Luis F. Romero\\Desktop\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\Services\\ITareaService.cs",
               "RelativeDocumentMoniker": "ProyectTest\\Services\\ITareaService.cs",
@@ -130,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "TareasController.cs",
               "DocumentMoniker": "C:\\Users\\Luis F. Romero\\Desktop\\netPrueba\\ProyectTest\\ProyectTest\\ProyectTest\\Controllers\\TareasController.cs",
               "RelativeDocumentMoniker": "ProyectTest\\Controllers\\TareasController.cs",
@@ -265,38 +261,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-10-05T20:16:52.662Z"
-            }
-          ]
-        },
-        {
-          "DockedHeight": 67,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            }
-          ]
-        },
-        {
-          "DockedHeight": 157,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }

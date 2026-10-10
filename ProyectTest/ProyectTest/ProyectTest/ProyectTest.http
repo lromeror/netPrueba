@@ -15,7 +15,109 @@ Content-Type: application/json
 
 {
   "titulo": "Fundamentos de Programacion",
+  "completada": false@ProyectTest_HostAddress = http://localhost:5217
+
+###############################################
+# LECTURA (GET)
+###############################################
+
+### Ver todas las tareas
+GET {{ProyectTest_HostAddress}}/api/tareas
+
+### Ver una tarea que existe (debe dar 200)
+GET {{ProyectTest_HostAddress}}/api/tareas/1
+
+### Ver una tarea que NO existe (debe dar 404)
+GET {{ProyectTest_HostAddress}}/api/tareas/9999
+
+###############################################
+# CREAR (POST)
+###############################################
+
+### Crear válida (debe dar 201 Created)
+POST {{ProyectTest_HostAddress}}/api/tareas
+Content-Type: application/json
+
+{
+  "titulo": "Estudiar async y await",
   "completada": false
+}
+
+### Crear otra válida (201)
+POST {{ProyectTest_HostAddress}}/api/tareas
+Content-Type: application/json
+
+{
+  "titulo": "Repasar LINQ",
+  "completada": true
+}
+
+### FALLA: título vacío (debe dar 400)
+POST {{ProyectTest_HostAddress}}/api/tareas
+Content-Type: application/json
+
+{
+  "titulo": "",
+  "completada": false
+}
+
+### FALLA: título muy corto, menos de 3 letras (debe dar 400)
+POST {{ProyectTest_HostAddress}}/api/tareas
+Content-Type: application/json
+
+{
+  "titulo": "ab",
+  "completada": false
+}
+
+### FALLA: sin el campo titulo (debe dar 400)
+POST {{ProyectTest_HostAddress}}/api/tareas
+Content-Type: application/json
+
+{
+  "completada": false
+}
+
+###############################################
+# ACTUALIZAR (PUT)
+###############################################
+
+### Actualizar una tarea que existe (debe dar 204 No Content)
+PUT {{ProyectTest_HostAddress}}/api/tareas/1
+Content-Type: application/json
+
+{
+  "titulo": "Título actualizado",
+  "completada": true
+}
+
+### Actualizar una que NO existe (debe dar 404)
+PUT {{ProyectTest_HostAddress}}/api/tareas/9999
+Content-Type: application/json
+
+{
+  "titulo": "No deberia guardarse",
+  "completada": false
+}
+
+### FALLA: actualizar con título inválido (debe dar 400)
+PUT {{ProyectTest_HostAddress}}/api/tareas/1
+Content-Type: application/json
+
+{
+  "titulo": "x",
+  "completada": false
+}
+
+###############################################
+# BORRAR (DELETE)
+###############################################
+
+### Borrar una tarea que existe (debe dar 204 No Content)
+DELETE {{ProyectTest_HostAddress}}/api/tareas/2
+
+### Borrar una que NO existe (debe dar 404)
+DELETE {{ProyectTest_HostAddress}}/api/tareas/9999
 }
 
 ### Crear una válida (debe dar 201)
