@@ -14,6 +14,7 @@ public class AppDbContext : DbContext
                                                           //El operador null! indica que la propiedad no puede ser nula,
                                                           //pero se inicializa en tiempo de ejecución.
 
+    public DbSet<Usuario> Usuarios { get; set; }   // ← agregar esta línea, crea la tabla en la base de datos
 
 }
 
